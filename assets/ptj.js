@@ -168,6 +168,7 @@ if (selectedTheme) {
   );
 }
 
+/*==================== DARK LIGHT THEME ====================*/
 // Activate / deactivate the theme manually with the button
 themeButton.addEventListener("click", () => {
   // Add or remove the dark / icon theme
@@ -176,4 +177,56 @@ themeButton.addEventListener("click", () => {
   // We save the theme and the current icon that the user chose
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
+});
+
+/*==================== CONTACT FORM (mailto) ====================*/
+/**
+ * Read destination contact email from meta tag for easy configuration.
+ * Falls back to the on-page email if meta is missing.
+ */
+function getDestinationEmail() {
+  const meta = document.querySelector('meta[name="contact-email"]');
+  if (meta && meta.getAttribute("content")) {
+    return meta.getAttribute("content").trim();
+  }
+  const emailLink = document.querySelector('.contact__information a[href^="mailto:"]');
+  if (emailLink) {
+    const href = emailLink.getAttribute("href");
+    const match = href.match(/^mailto:([^?]+)/i);
+    if (match && match[1]) return match[1].trim();
+  }
+  return "rkamathvenkatesh@gmail.com";
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const contactForm = document.getElementById("contact-form");
+  if (contactForm) {
+    contactForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const nameEl = document.getElementById("contact-name");
+      const emailEl = document.getElementById("contact-email-input");
+      const msgEl = document.getElementById("contact-message");
+
+      const name = (nameEl?.value || "").trim();
+      const email = (emailEl?.value || "").trim();
+      const message = (msgEl?.value || "").trim();
+
+      if (!name || !email || !message) {
+        // Let browser show native validation if possible
+        if (contactForm.reportValidity) contactForm.reportValidity();
+        return;
+      }
+
+      const to = getDestinationEmail();
+      const subject = `Portfolio Contact from ${name || "Visitor"}`;
+      const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+
+      const mailto = `mailto:${encodeURIComponent(to)}?subject=${encodeURIComponent(
+        subject,
+      )}&body=${encodeURIComponent(body)}`;
+
+      // Trigger the user's email client with pre-filled content
+      window.location.href = mailto;
+    });
+  }
 });

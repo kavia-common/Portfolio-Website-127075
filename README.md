@@ -34,7 +34,15 @@ I appreciate any suggestions, feedback, or contributions to enhance this persona
 
 ## Contact
 
-If you have any questions or inquiries, please feel free to reach out to me through the contact information provided in the website or by using the contact form.
+The site includes a Contact section with:
+- Direct phone and email links
+- A contact form that opens your default email client with a pre-filled message using a mailto link
+
+Configure the destination email shown in the form by editing the meta tag in `index.html`:
+```html
+<meta name="contact-email" content="youremail@example.com" />
+```
+If the meta tag is not present, the script falls back to the email shown in the Contact section.
 
 Thank you for visiting my personal portfolio repository! I hope you find it informative and visually appealing.
 ![Portfolio](https://github.com/Venkateeshh/Portfolio-Website/assets/117290841/d05942e3-6970-47eb-9757-482f11bb6044)
