@@ -1,0 +1,137 @@
+2025-08-12 09:02:36,878 - Knowledge - INFO - Redis support added with prefix knowledge:b8190pj:
+2025-08-12 09:02:37,101 - Knowledge - INFO - load persisted knowledge: begin
+2025-08-12 09:02:37,215 - Knowledge - INFO - load persisted knowledge: end
+2025-08-12 09:02:37,280 - Knowledge - INFO - load persisted docinfo: begin
+2025-08-12 09:02:37,370 - Knowledge - INFO - load persisted docinfo: end
+2025-08-12 09:02:37,468 - Knowledge - INFO - worker kw1 created with dedicated MongoDB connection (total: 1)
+2025-08-12 09:02:37,572 - Knowledge - INFO - knowledge worker kw1 start
+2025-08-12 09:02:37,576 - Knowledge - INFO - worker kw2 created with dedicated MongoDB connection (total: 2)
+2025-08-12 09:02:37,684 - Knowledge - INFO - worker kw1 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md from ingest queue
+2025-08-12 09:02:37,774 - Knowledge - INFO - knowledge worker kw2 start
+2025-08-12 09:02:37,776 - Knowledge - INFO - worker kw3 created with dedicated MongoDB connection (total: 3)
+2025-08-12 09:02:37,894 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md
+2025-08-12 09:02:37,935 - Knowledge - INFO - worker kw2 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css from ingest queue
+2025-08-12 09:02:38,015 - Knowledge - INFO - knowledge worker kw3 start
+2025-08-12 09:02:38,017 - Knowledge - INFO - worker kw4 created with dedicated MongoDB connection (total: 4)
+2025-08-12 09:02:38,135 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:38,281 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css
+2025-08-12 09:02:38,344 - Knowledge - INFO - worker kw3 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css from ingest queue
+2025-08-12 09:02:38,454 - Knowledge - INFO - knowledge worker kw4 start
+2025-08-12 09:02:38,457 - Knowledge - INFO - worker kw5 created with dedicated MongoDB connection (total: 5)
+2025-08-12 09:02:38,552 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:38,636 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:38,764 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css
+2025-08-12 09:02:38,861 - Knowledge - INFO - worker kw4 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js from ingest queue
+2025-08-12 09:02:38,977 - Knowledge - INFO - knowledge worker kw5 start
+2025-08-12 09:02:38,979 - Knowledge - INFO - worker kw6 created with dedicated MongoDB connection (total: 6)
+2025-08-12 09:02:39,083 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md
+2025-08-12 09:02:39,178 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:39,253 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:39,368 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js
+2025-08-12 09:02:39,475 - Knowledge - INFO - worker kw5 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js from ingest queue
+2025-08-12 09:02:39,565 - Knowledge - INFO - knowledge worker kw6 start
+2025-08-12 09:02:39,700 - Knowledge - INFO - adding /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md to ingest queue
+2025-08-12 09:02:39,751 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css
+2025-08-12 09:02:39,826 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:40,065 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js
+2025-08-12 09:02:40,234 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:40,234 - Knowledge - INFO - worker kw6 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html from ingest queue
+2025-08-12 09:02:40,234 - Knowledge - INFO - worker kw1 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md from ingest queue
+2025-08-12 09:02:40,407 - Knowledge - INFO - adding /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css to ingest queue
+2025-08-12 09:02:40,423 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css
+2025-08-12 09:02:40,587 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:40,715 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html
+2025-08-12 09:02:40,788 - Knowledge - INFO - Thread kw1 - File README.md - Remaining files in queue: 0
+2025-08-12 09:02:40,900 - Knowledge - INFO - worker kw2 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css from ingest queue
+2025-08-12 09:02:40,900 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:41,072 - Knowledge - INFO - adding /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css to ingest queue
+2025-08-12 09:02:41,133 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js
+2025-08-12 09:02:41,305 - Knowledge - INFO - start ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md
+2025-08-12 09:02:41,419 - Knowledge - INFO - Thread kw2 - File swiper-bundle.min.css - Remaining files in queue: 0
+2025-08-12 09:02:41,490 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:41,572 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:41,572 - Knowledge - INFO - worker kw3 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css from ingest queue
+2025-08-12 09:02:41,704 - Knowledge - INFO - adding /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js to ingest queue
+2025-08-12 09:02:41,732 - Knowledge - INFO - Fast-track processing for simple file: /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md
+2025-08-12 09:02:41,827 - Knowledge - INFO - start ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css
+2025-08-12 09:02:41,927 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js
+2025-08-12 09:02:42,037 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:42,111 - Knowledge - INFO - Thread kw3 - File newcss.css - Remaining files in queue: 0
+2025-08-12 09:02:42,194 - Knowledge - INFO - worker kw4 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js from ingest queue
+2025-08-12 09:02:42,272 - Knowledge - INFO - done fast ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md
+2025-08-12 09:02:42,527 - Knowledge - INFO - adding /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js to ingest queue
+2025-08-12 09:02:42,535 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html
+2025-08-12 09:02:42,631 - Knowledge - INFO - start ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css
+2025-08-12 09:02:42,738 - Knowledge - INFO - Thread kw4 - File swiper-bundle.min.js - Remaining files in queue: 0
+2025-08-12 09:02:42,815 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md
+2025-08-12 09:02:42,893 - Knowledge - INFO - worker kw5 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js from ingest queue
+2025-08-12 09:02:43,048 - Knowledge - INFO - adding /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html to ingest queue
+2025-08-12 09:02:43,145 - Knowledge - INFO - start ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js
+2025-08-12 09:02:43,346 - Knowledge - INFO - Thread kw5 - File ptj.js - Remaining files in queue: 0
+2025-08-12 09:02:43,446 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:43,446 - Knowledge - INFO - worker kw6 pull /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html from ingest queue
+2025-08-12 09:02:43,805 - Knowledge - INFO - start ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js
+2025-08-12 09:02:43,883 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:43,990 - Knowledge - INFO - Thread kw6 - File index.html - Remaining files in queue: 0
+2025-08-12 09:02:44,156 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/README.md
+2025-08-12 09:02:44,259 - Knowledge - INFO - start ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html
+2025-08-12 09:02:45,898 - Knowledge - INFO - done ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css
+2025-08-12 09:02:46,009 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css
+2025-08-12 09:02:46,100 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:46,193 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:46,300 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.css
+2025-08-12 09:02:46,952 - Knowledge - INFO - persist search terms embedding for assets/swiper-bundle.min.css
+2025-08-12 09:02:48,680 - Knowledge - INFO - done ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css
+2025-08-12 09:02:48,755 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css
+2025-08-12 09:02:48,850 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:48,986 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:49,083 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/newcss.css
+2025-08-12 09:02:49,760 - Knowledge - INFO - persist search terms embedding for assets/newcss.css
+2025-08-12 09:02:56,154 - Knowledge - INFO - done ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html
+2025-08-12 09:02:56,282 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html
+2025-08-12 09:02:56,370 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:56,503 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:56,572 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/index.html
+2025-08-12 09:02:57,157 - Knowledge - INFO - persist search terms embedding for index.html
+2025-08-12 09:02:57,711 - Knowledge - INFO - done ingest for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js
+2025-08-12 09:02:57,870 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js
+2025-08-12 09:02:57,990 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:02:58,098 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:02:58,179 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/ptj.js
+2025-08-12 09:02:58,675 - Knowledge - INFO - persist search terms embedding for assets/ptj.js
+2025-08-12 09:03:47,155 - Knowledge - ERROR - _service_ingest_queue had exception  for file /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/asyncio/tasks.py", line 500, in wait_for
+    return fut.result()
+           ^^^^^^^^^^^^
+  File "/app/app/utils/kg_build/knowledge.py", line 1723, in _ingest_file
+    response = await llm.llm_interaction_wrapper(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/llm_wrapper/core/llm_interface.py", line 338, in llm_interaction_wrapper
+    completion = await invoke_llm()
+                 ^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/site-packages/llm_wrapper/core/llm_interface.py", line 284, in invoke_llm
+    return await loop.run_in_executor(None, blocking_call_wrapper)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/app/app/utils/kg_build/knowledge.py", line 324, in _service_ingest_queue
+    file_info = self.loop_worker.run_until_complete(asyncio.wait_for( knowledge._ingest_file(filename, self.mongo_handler), knowledge.timeout))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/asyncio/tasks.py", line 502, in wait_for
+    raise exceptions.TimeoutError() from exc
+TimeoutError
+2025-08-12 09:03:47,257 - Knowledge - INFO - process ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js
+2025-08-12 09:03:47,332 - Knowledge - INFO - Found code-base-name: https://github.com/kavia-common/Portfolio-Website-127075.git:kavia-master
+2025-08-12 09:03:47,411 - Knowledge - INFO - Found code_base: <app.utils.kg_build.knowledge.KnowledgeCodeBase object at 0x7fe034c340d0>
+2025-08-12 09:03:47,487 - Knowledge - INFO - persist ingested knowledge for /app/data/b2c/127075/b8190pj/Portfolio-Website-127075/assets/swiper-bundle.min.js
+2025-08-12 09:03:47,649 - Knowledge - INFO - Knowledge creation complete
+2025-08-12 09:03:47,771 - Knowledge - INFO - Updating org costs, total cost: 0.014192399999999999
+2025-08-12 09:03:48,504 - Knowledge - INFO - Saving knowledge to Redis...
+2025-08-12 09:03:48,580 - Knowledge - INFO - Knowledge saved to Redis successfully
